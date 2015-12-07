@@ -4,11 +4,11 @@ import unittest
 from fizz_buzz import fizz_buzz
 
 class TestFizzBuzz(unittest.TestCase):
-
+   
     def test_fizz_buzz_1(self):
         actual = fizz_buzz(1)
-        expected = '1'
-        self.assertEqual(actual, expected)
+        expected =  '1'
+    self.assertEqual(actual, expected)
 
     def test_fizz_buzz_2(self):
         actual = fizz_buzz(2)
